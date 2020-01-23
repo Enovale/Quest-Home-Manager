@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 47585767
+CRC: 3270122608
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f885eafd1db4dae353059ecf70a59696
+    Hash: 39fe7297ba328a8674db68427b62f09b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 21c99c86a43ad817b2cb7f65458ae090
@@ -16,6 +16,8 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/RayMaterial.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat
 - Assets/Skyboxes/BlackVoidSkybox.mat
 Dependencies:
 - D:/Documents/Quest-Home-Manager/OVRAssetBundles/OVRMasterBundle/asset_png0
