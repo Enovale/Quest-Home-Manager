@@ -3,7 +3,7 @@ CRC: 3270122608
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 39fe7297ba328a8674db68427b62f09b
+    Hash: fd96d6c1c3ff4829053bf5fb8db9d786
   TypeTreeHash:
     serializedVersion: 2
     Hash: 21c99c86a43ad817b2cb7f65458ae090
@@ -20,4 +20,4 @@ Assets:
 - Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat
 - Assets/Skyboxes/BlackVoidSkybox.mat
 Dependencies:
-- D:/Documents/Quest-Home-Manager/OVRAssetBundles/OVRMasterBundle/asset_png0
+- F:/Documents/Quest-Home-Manager/OVRAssetBundles/OVRMasterBundle/asset_png0

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1047286939
+CRC: 3902827165
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dc880b6f93d905dd841b2ff1d8584228
+    Hash: ebd42b25385bb4029b3bdd5f16038670
   TypeTreeHash:
     serializedVersion: 2
     Hash: a2cde80e4b4b39dd3c1d55b9bfce0244
@@ -98,4 +98,4 @@ Assets:
 - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
 - Assets/TextMesh Pro/Resources/TMP Settings.asset
 Dependencies:
-- D:/Documents/Quest-Home-Manager/OVRAssetBundles/OVRMasterBundle/asset_ttf0
+- F:/Documents/Quest-Home-Manager/OVRAssetBundles/OVRMasterBundle/asset_ttf0
