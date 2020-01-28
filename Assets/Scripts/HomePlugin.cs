@@ -19,7 +19,7 @@ public class SettingsPlugin
                 {
                     using (var androidPlugin = new AndroidJavaObject("com.elijahzawesome.homeplugin.AndroidPlugin", currentActivity))
                     {
-                        return androidPlugin.Call<string>("SetEnvironment");
+                        return androidPlugin.Call<string>("SetEnvironment", "com.oculus.environment.prod.winterlodge");
                         //androidPlugin.Call("SetEnvironment");
                         //return "ran code. hope it worked.";
                     }
