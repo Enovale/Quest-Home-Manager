@@ -11,19 +11,24 @@ public class SettingsPlugin
     {
         AndroidJNIHelper.debug = true;
 
-        if (Application.platform == RuntimePlatform.Android || true)
+        if (Application.platform == RuntimePlatform.Android)
         {
-            using (AndroidJavaClass jc = new AndroidJavaClass("com.elijahzawesome.homeplugin.AndroidPlugin"))
+            using (var javaUnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
             {
-                Debug.Log(jc.GetHashCode());
-                return jc.Call<string>("GetHomeUri");
+                using (var currentActivity = javaUnityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
+                {
+                    using (var androidPlugin = new AndroidJavaObject("com.elijahzawesome.homeplugin.AndroidPlugin", currentActivity))
+                    {
+                        return androidPlugin.Call<string>("SetEnvironment");
+                        //androidPlugin.Call("SetEnvironment");
+                        //return "ran code. hope it worked.";
+                    }
+                }
             }
         } 
         else
         {
             return "currently not running on android.";
         }
-
-        return "error";
     }
 }

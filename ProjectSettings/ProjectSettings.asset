@@ -166,7 +166,7 @@ PlayerSettings:
     Standalone: com.DefaultCompany.QuestHomeManager
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
@@ -453,6 +453,9 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices: []
   - m_BuildTarget: Windows Store Apps
+    m_Enabled: 1
+    m_Devices: []
+  - m_BuildTarget: 
     m_Enabled: 1
     m_Devices: []
   openGLRequireES31: 0
