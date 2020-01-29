@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="662209c8-44ac-4dd6-a939-e06a35c4edf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/homeplugin/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homeplugin/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/HomePlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Scripts/HomePlugin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeplugin/src/main/java/com/elijahzawesome/homeplugin/AndroidPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/homeplugin/src/main/java/com/elijahzawesome/homeplugin/AndroidPlugin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homeplugin/src/main/java/com/elijahzawesome/homeplugin/AndroidPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="137">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -394,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homeplugin/src/main/java/com/elijahzawesome/homeplugin/AndroidPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="137">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

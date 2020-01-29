@@ -11,7 +11,7 @@ public class PluginInterface : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DisplayHomeUri();
+        InstallTestEnv();
     }
 
     // Update is called once per frame
@@ -20,9 +20,9 @@ public class PluginInterface : MonoBehaviour
         
     }
 
-    public void DisplayHomeUri()
+    public void InstallTestEnv()
     {
-        DebugText.text = SettingsPlugin.GetHomePackage();
+        DebugText.text = SettingsPlugin.InstallEnvironment();
         Debug.Log(DebugText.text);
     }
 }

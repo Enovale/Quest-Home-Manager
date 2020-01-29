@@ -7,7 +7,7 @@ public class SettingsPlugin
 
     }
 
-    public static string GetHomePackage()
+    public static string InstallEnvironment()
     {
         AndroidJNIHelper.debug = true;
 
@@ -19,7 +19,7 @@ public class SettingsPlugin
                 {
                     using (var androidPlugin = new AndroidJavaObject("com.elijahzawesome.homeplugin.AndroidPlugin", currentActivity))
                     {
-                        return androidPlugin.Call<string>("SetEnvironment", "com.oculus.environment.prod.winterlodge");
+                        return androidPlugin.Call<string>("SetEnvironment", "testscene.zip", "com.oculus.environment.prod.winterlodge");
                         //androidPlugin.Call("SetEnvironment");
                         //return "ran code. hope it worked.";
                     }
