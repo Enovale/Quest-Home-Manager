@@ -17,15 +17,20 @@ public class AndroidPlugin {
     public AndroidPlugin(Context context)
     {
         this.context = context;
-        SDRootPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        //SDRootPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        SDRootPath = "/sdcard";
     }
 
     public void SetEnvironment(String EnvironmentFile, String PackageToReplace) {
-        // sign APK here and uninstall old env
-        Sign.main(new String[]{"sign.jar", SDRootPath + "/test_unsigned.apk"});
-        // Need to eventually make it read the package name from the selected package in UnityPlayerPrefs
-        UninstallAPK(PackageToReplace);
-        InstallAPK(SDRootPath + "/test_unsigned.s.apk");
+        try {
+            // sign APK here and uninstall old env
+            Sign.main(new String[]{"sign.jar", SDRootPath + "/test_unsigned.apk"});
+            // Need to eventually make it read the package name from the selected package in UnityPlayerPrefs
+            UninstallAPK(PackageToReplace);
+            InstallAPK(SDRootPath + "/test_unsigned.s.apk");
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public String[] GetInstalledEnvironments() {
